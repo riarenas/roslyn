@@ -23,7 +23,7 @@ namespace Microsoft.CodeAnalysis.Editor.CSharp.UnitTests.AssignOutParameters
 {
     char M(out int i)
     {
-        [|return 'a';|]
+        [|return 'a';|SharpMethodExtrac
     }
 }",
 @"class C
